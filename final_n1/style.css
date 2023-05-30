@@ -1,0 +1,171 @@
+.form {
+    display: flex;
+    width: 700px;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+}
+
+
+body {
+    background-color: hsl(186, 14%, 43%);
+    font-family:'Space Mono', monospace;
+}
+
+
+.total {
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 15px;
+    width: 50%;
+    padding: 10px;
+}
+
+.to-right {
+    text-align: right;
+}
+
+.input {
+    display: flex;
+    flex-flow:  row wrap;
+    width: 50%;
+    height: 300px;
+    align-content: space-around;
+    padding-left: 60px;
+}
+
+.input-cnt {
+    display: flex;
+    padding: .5rem;
+    justify-content: space-between;
+    background-color: #f3f8fb;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #f3f8fb;
+}
+
+img {
+    object-fit: contain;
+}
+
+.input-cnt:focus-within {
+    border: 1px solid #26c8ab;
+}
+
+.input-bill {
+    background-color: #f3f8fb;
+    border: none;
+    outline: none;
+}
+
+.input-cnt {
+    position: relative;
+}
+
+.bill-text {
+    position: absolute;
+    top: 20px;
+}
+
+.tip-text {
+    position: absolute;
+    top: 110px;
+}
+
+.percentage {
+    position: relative;
+}
+
+.text-nP {
+    position: absolute;
+    top: 230px;
+}
+
+
+.btn-propina {
+    justify-content: space-between;
+    width: 5rem;
+    padding: .3rem;
+    margin: .1rem;
+    color: #f0f0f0;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family:'Space Mono', monospace;
+
+}
+
+.btn-propina {
+    cursor: pointer;
+}
+
+.perc_inp {
+    width: 4.2rem;
+    padding: .4rem;
+    font-family: 'Space Mono', monospace;
+    color: hsl(183, 100%, 15%);
+    outline: none;
+    border: none;
+}
+
+.perc_inp:focus-within {
+    border: 1px solid #26c8ab;
+}
+
+
+#nPersonas {
+    display: flex;
+    padding: .5rem;
+    justify-content: space-between;
+    background-color: #f3f8fb;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #f3f8fb;
+    outline: none;
+    border: none;
+    font-family: 'Space Mono', monospace;
+}
+
+#nPersonas:focus-within {
+    border: 1px solid #26c8ab;
+}
+
+
+.info {
+    display: inline;
+    margin: none;
+    color: #f3f8fb;
+}
+
+.TipAmount {
+    display: inline;
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.title-total {
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.reinicio {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(172, 67%, 45%);
+    cursor: pointer;
+}
+
+#propxP {
+    display: inline;
+    color: hsl(172, 67%, 45%);
+    text-align: right;
+    font-size: 2rem;
+}
+
+#totalxP {
+    display: inline;
+    text-align: end;
+    color: hsl(172, 67%, 45%);
+}
